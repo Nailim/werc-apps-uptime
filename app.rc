@@ -1,0 +1,16 @@
+fn conf_enable_uptime{
+	conf_enable_app uptime
+}
+
+fn uptime_init {
+	pageTitle='uptime'
+	handler_body_main='uptime_body'
+}
+
+fn uptime_body {
+	# simple way - echo something
+	#uptime
+
+	# template way - use template to mix content with code
+	tpl_handler apps/uptime/body.tpl
+}

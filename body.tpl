@@ -1,0 +1,3 @@
+Server uptime:
+<br>
+% uptime
